@@ -3,11 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Tu Portafolio</title>
 </head>
-<h1> Hola </h1>
-<h2> cambios </h2>
 <body>
-    
+    <header>
+        <h1>Tu Nombre</h1>
+        <p>Desarrollador Web</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">Acerca de Mí</a></li>
+            <li><a href="#portfolio">Portafolio</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>Acerca de Mí</h2>
+        <p>Breve descripción sobre ti...</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portafolio</h2>
+        <!-- Aquí puedes agregar proyectos -->
+        <div class="project">
+            <img src="imgs/img1.png" alt="Proyecto 1">
+            <h3>Proyecto 1</h3>
+            <p>Descripción del proyecto 1...</p>
+        </div>
+
+        <div class="project">
+            <img src="imgs/img2.png" alt="Proyecto 2">
+            <h3>Proyecto 2</h3>
+            <p>Descripción del proyecto 2...</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form id="contact-form">
+            <!-- Formulario de contacto -->
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Tu Nombre. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="assets/script.js"></script>
 </body>
 </html>
