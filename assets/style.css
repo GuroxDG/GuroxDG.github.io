@@ -51,12 +51,27 @@ section {
     background-color: #333333;
     padding: 20px;
     border: 1px solid #666666;
+    border-radius: 5px;
 }
 
 .project img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .project {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .project img {
+        max-width: 45%;
+        margin-right: 20px;
+    }
 }
 
 footer {
