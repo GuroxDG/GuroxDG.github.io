@@ -29,13 +29,15 @@ nav ul {
 nav li {
     display: inline;
     margin-right: 20px;
+    color:antiquewhite;
 }
 
 nav a {
     text-decoration: none;
-    color: #ffffff;
+    color: #ff9900;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.3s ease;
+    font-style: bold;
 }
 
 nav a:hover {
